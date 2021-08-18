@@ -18,7 +18,6 @@
             <li><%= link_to "Home", root_path %></li>
             <li><%= link_to "Help", help_path %></li>
             <% if logged_in? %>
-               <%= puts "Someone is logged in #{current_user}" %>
                <li><%= link_to "Users", "#" %></li>
                <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
