@@ -14,6 +14,8 @@ $gray-medium-light: #eaeaea;
 /* universal */
 body {
    padding-top: 60px;
+   padding-left: 5%;
+   padding-right: 5%;
 }
 
 section {
@@ -108,6 +110,23 @@ footer {
       li {
          float: left;
          margin-left: 15px;
+      }
+   }
+}
+@media (max-width: 800px) {
+   footer {
+      small {
+         display: block;
+         float: none;
+         margin-bottom: 1em;
+      }
+      ul {
+         float: none;
+         padding: 0;
+         li {
+            float: none;
+            margin-left: 0;
+         }
       }
    }
 }
